@@ -100,7 +100,7 @@ New Data Filtering: To ensure that only new records are ingested into the databa
 3. Load (Data Ingestion)
 Once the data is processed, it is ingested into the database. Both job sources are stored in a single table in the database.
 
-Database: The processed data is inserted into a relational database PostgreSQL.
+**Database**: The processed data is inserted into a relational database PostgreSQL.
 
 The database is connected with Metabase which is used for creating visualisations. the visualisation are stored in the visualisations-metabase folder with the queries used to build them.
 
